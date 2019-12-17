@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea019dbb-4a4b-4b10-928f-87ef3c3654aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/ArrayUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,26 +22,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="390">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/common/util/ArrayUtilsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="300">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,6 +80,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/ArrayUtilsTest.java" />
       </list>
     </option>
   </component>
@@ -103,11 +115,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3" />
-    <option name="y" value="127" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="117" />
+    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="798" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,6 +127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,16 +183,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-common-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,8 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="CheckUtilsTest.javaUtilTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ArrayUtilsTest.testArrayTarget">
+    <configuration name="ArrayUtilsTest.testArray" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -214,8 +222,80 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.CheckUtilsTest" />
-      <option name="METHOD_NAME" value="javaUtilTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtilsTest" />
+      <option name="METHOD_NAME" value="testArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayUtilsTest.testArrayCopy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtilsTest" />
+      <option name="METHOD_NAME" value="testArrayCopy" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayUtilsTest.testArrayFill" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtilsTest" />
+      <option name="METHOD_NAME" value="testArrayFill" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayUtilsTest.testArraySort" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtilsTest" />
+      <option name="METHOD_NAME" value="testArraySort" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayUtilsTest.testArrayTarget" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtilsTest" />
+      <option name="METHOD_NAME" value="testArrayTarget" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -317,7 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckUtilsTest.javaUtilTest" />
+        <item itemvalue="TestNG.ArrayUtilsTest.testArrayTarget" />
+        <item itemvalue="TestNG.ArrayUtilsTest.testArraySort" />
+        <item itemvalue="TestNG.ArrayUtilsTest.testArrayFill" />
+        <item itemvalue="TestNG.ArrayUtilsTest.testArrayCopy" />
+        <item itemvalue="TestNG.ArrayUtilsTest.testArray" />
       </list>
     </recent_temporary>
   </component>
@@ -345,50 +429,53 @@
       <workItem from="1576053498134" duration="1043000" />
       <workItem from="1576113615480" duration="942000" />
       <workItem from="1576131443673" duration="3592000" />
-      <workItem from="1576135633638" duration="2957000" />
+      <workItem from="1576135633638" duration="5163000" />
+      <workItem from="1576200363704" duration="3984000" />
+      <workItem from="1576547388228" duration="6709000" />
+      <workItem from="1576574005262" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 15h 45m 11s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArrayCopy - 2019.12.17 at 15h 07m 25s.xml">
+      <configuration name="ArrayUtilsTest.testArrayCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 15h 46m 04s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArrayCopy - 2019.12.17 at 15h 10m 08s.xml">
+      <configuration name="ArrayUtilsTest.testArrayCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 15h 46m 36s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArrayFill - 2019.12.17 at 15h 11m 45s.xml">
+      <configuration name="ArrayUtilsTest.testArrayFill" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 15h 49m 53s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArrayFill - 2019.12.17 at 15h 13m 03s.xml">
+      <configuration name="ArrayUtilsTest.testArrayFill" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 15h 51m 06s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArraySort - 2019.12.17 at 15h 18m 23s.xml">
+      <configuration name="ArrayUtilsTest.testArraySort" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 15h 52m 22s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArraySort - 2019.12.17 at 15h 29m 02s.xml">
+      <configuration name="ArrayUtilsTest.testArraySort" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 15h 54m 32s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArrayTarget - 2019.12.17 at 15h 41m 58s.xml">
+      <configuration name="ArrayUtilsTest.testArrayTarget" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 15h 55m 20s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArraySort - 2019.12.17 at 15h 46m 51s.xml">
+      <configuration name="ArrayUtilsTest.testArraySort" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 16h 17m 40s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArrayTarget - 2019.12.17 at 15h 48m 14s.xml">
+      <configuration name="ArrayUtilsTest.testArrayTarget" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckUtilsTest_javaUtilTest - 2019.12.12 at 16h 18m 25s.xml">
-      <configuration name="CheckUtilsTest.javaUtilTest" configurationId="TestNG" />
+    <history-entry file="ArrayUtilsTest_testArrayTarget - 2019.12.17 at 15h 55m 35s.xml">
+      <configuration name="ArrayUtilsTest.testArrayTarget" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14046000" />
+    <option name="totallyTimeSpent" value="26977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="798" extended-state="6" />
+    <frame x="117" y="22" width="1440" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3018598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +484,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3427762" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4490085" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,25 +511,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtilsTest.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/wangxiaolong.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3557">
@@ -470,15 +538,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state relative-caret-position="480">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/wangxiaolong.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="158" column="21" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="143" column="29" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroten/common/util/ArrayUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
