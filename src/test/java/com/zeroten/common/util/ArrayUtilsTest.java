@@ -123,7 +123,10 @@ public class ArrayUtilsTest {
     }
 
 
+    @Test
+    public void testName() {
 
-
-
+        int[] arr=new int[]{2,6,9,1,4,3,6,2,0,10,33,23,11,9,8,7,4,15};
+        System.out.println(Arrays.toString(ArrayUtils.sort(arr)));
+    }
 }
